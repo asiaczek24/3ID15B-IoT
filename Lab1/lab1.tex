@@ -1,0 +1,45 @@
+\documentclass[11pt]{article}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{enumerate}
+\usepackage{amssymb}
+
+\author{Joanna Gmyr} 
+\title{Przykładowa strona}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Formatowanie tekstu}
+\cite{kostecki2008}
+\textcolor{red}{Czerwony tekst}\\
+\Large{Duża czcionka} \\
+\textcolor{green}{Zielony tekst}\\
+\Huge{Większa czcionka} \\
+\textcolor{blue}{Niebieski tekst}\\
+\textbf{Pogrubiony tekst}\\
+
+\Large{}
+\section{Tabele}
+\begin{tabular}{|c|c|c|} \hline
+Pierwsza komórka & druga & trzecia \\ \hline
+Czwarta & piąta & szósta \\ \hline
+\end{tabular}
+\Large{}
+\section{Wzory matematyczne}
+\begin{displaymath}
+c^{2}=a^{2}+b^{2} \\
+
+x^{2} \geq 0\qquad
+\textrm{dla każdego }x\in\mathbb{R} \\ \\
+$\Delta$ = b^{2}-4ac\\
+\end{displaymath}
+\bibliography{lab1,lab1a}{}
+\bibliographystyle{plain}
+\nocite{feder2006}
+\nocite{*}
+
+
+\end{document}
